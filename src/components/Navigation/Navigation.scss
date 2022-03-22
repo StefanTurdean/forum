@@ -1,0 +1,13 @@
+@use "../abstracts/config";
+
+.Navigation {
+  background-color: config.$color_1;
+
+  @include config.flexCenter;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  .NavButtonContainer {
+    @include config.flexCenter;
+  }
+}

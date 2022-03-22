@@ -1,0 +1,11 @@
+$color_1: rgb(11, 60, 73);
+$color_2: rgb(115, 25, 99);
+$color_3: rgb(255, 253, 253);
+$color_4: rgb(247, 92, 3);
+$color_5: rgb(222, 184, 65);
+
+@mixin flexCenter {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
